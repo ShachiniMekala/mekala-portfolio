@@ -1,0 +1,21 @@
+.app{
+    height: 100vh;
+    
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: rgb(9, 90, 122);
+        position: relative;
+        top: 70px;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        overflow-x: hidden;
+        > *{
+            width: 100%;
+            height: calc(100vh - 70px);
+        }
+    }
+}

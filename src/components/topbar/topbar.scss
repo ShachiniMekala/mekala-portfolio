@@ -1,0 +1,89 @@
+.topbar{
+    background-color: rgb(238, 235, 206);
+    color: rgb(12, 67, 88);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    transition: all 1s ease;
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+
+        .left{
+            display: flex;
+            
+            .namelogo{
+                font-size: 40px;
+                font-weight: 500;
+                text-decoration: none;
+                color: inherit;
+                font-family: 'Zeyada', cursive;
+                padding: 10px 20px ;
+            }
+
+            .itemContainer{
+                display: flex;  
+                padding: 25px 10px;
+                .details{
+                    padding-left: 10px;
+                    text-decoration: none;
+                    color: inherit;
+                }
+                .space{
+                    padding-left: 20px;
+                    padding-right: 30px;
+                    font-size: 30px;
+                }
+                
+            }
+            
+        }
+        
+        .right{
+            padding: 25px 20px ;
+            .hamburger{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+
+                span{
+                    width: 100%;
+                    height: 3px;
+                    transform-origin: left;
+                    transition: all 1s ease;
+                    background-color: rgb(12, 67, 88);
+                }
+            }
+        }
+    }
+   
+
+    &.active{
+        background-color: rgb(12, 67, 88);
+        color: rgb(238, 235, 206);
+        .hamburger{
+            span{
+                &:first-child{
+                    background-color: rgb(238, 235, 206);
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                }
+                &:last-child{
+                    background-color: rgb(238, 235, 206);
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+    }
+}
+
+
+
