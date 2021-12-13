@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mekala-portfolio/static/css/main.e25f9c83.chunk.css",
+    "main.css": "/mekala-portfolio/static/css/main.b998d571.chunk.css",
     "main.js": "/mekala-portfolio/static/js/main.db162f69.chunk.js",
     "main.js.map": "/mekala-portfolio/static/js/main.db162f69.chunk.js.map",
     "runtime-main.js": "/mekala-portfolio/static/js/runtime-main.1e1c695e.js",
@@ -8,14 +8,14 @@
     "static/js/2.3bbd90d3.chunk.js": "/mekala-portfolio/static/js/2.3bbd90d3.chunk.js",
     "static/js/2.3bbd90d3.chunk.js.map": "/mekala-portfolio/static/js/2.3bbd90d3.chunk.js.map",
     "index.html": "/mekala-portfolio/index.html",
-    "static/css/main.e25f9c83.chunk.css.map": "/mekala-portfolio/static/css/main.e25f9c83.chunk.css.map",
+    "static/css/main.b998d571.chunk.css.map": "/mekala-portfolio/static/css/main.b998d571.chunk.css.map",
     "static/js/2.3bbd90d3.chunk.js.LICENSE.txt": "/mekala-portfolio/static/js/2.3bbd90d3.chunk.js.LICENSE.txt",
     "static/media/MyCasualcropped.f35aa44b.png": "/mekala-portfolio/static/media/MyCasualcropped.f35aa44b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1e1c695e.js",
     "static/js/2.3bbd90d3.chunk.js",
-    "static/css/main.e25f9c83.chunk.css",
+    "static/css/main.b998d571.chunk.css",
     "static/js/main.db162f69.chunk.js"
   ]
 }
