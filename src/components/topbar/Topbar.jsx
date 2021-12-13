@@ -1,16 +1,16 @@
 import "./topbar.scss";
 import { PhoneInTalk,Email  } from '@material-ui/icons';
 
-const Topbar = ({menuOpen,setMenuOpen}) => {
+const Topbar = ({menuOpen,setMenuOpen,activeIndex,setActiveIndex }) => {
     return ( 
         <div className={"topbar "+(menuOpen && "active")} id="topbar">
             
         <div className="wrapper">
             <div className="left">
-                <a href="#aboutme" className="namelogo"> <i class='fas fa-angle-left' ></i> Shachini Mekala / <i class='fas fa-angle-right'></i></a>
+                <a href="#aboutme" className="namelogo" onClick={()=>setActiveIndex(activeIndex=1)}> <i className='fas fa-angle-left'></i> Shachini Mekala / <i className='fas fa-angle-right'></i></a>
                 <div className="itemContainer">
                 <PhoneInTalk/>
-                <a className="details" href="tel:+94766857611">(+94) 71-2212 515</a>
+                <a className="details" href="tel:+94712212515">(+94) 71-2212 515</a>
                 <span className="space"></span>
                 <Email/>
                 <a  className="details" href="mailto:shachinikarunarathne2016@gmail.com"> shachinikarunarathne2016@gmail.com </a>

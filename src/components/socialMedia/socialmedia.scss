@@ -1,0 +1,27 @@
+.iconwrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    left: 30px;
+    z-index: 10;
+    top: 20%;
+    font-size: "large";
+    position: fixed;
+    margin-top: 60vh;
+    
+    a{
+        text-decoration: none;  
+        .icon{
+            font-size: 40px;
+            cursor: pointer;
+            color: rgb(121, 153, 163);
+        }
+
+        .icon:hover{
+            transform: scale(1.2);
+            color: rgb(121, 153, 163);
+        }
+    }
+    
+}

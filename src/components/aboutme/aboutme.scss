@@ -1,3 +1,46 @@
 .aboutme{
-    background-color: rgb(41, 138, 177);
+    background-color: rgb(238, 235, 206);
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        .profile{
+            display: flex;
+            flex-direction: column;
+            margin-top: 150px;
+            margin-left: 50px;
+            margin-right: 20px;
+
+            h1{
+               color: rgb(12, 67, 88); 
+               font-size: 50px;
+            }
+            h2{
+                color: rgb(121, 153, 163);
+                font-size: 40px;
+            }
+            p{
+                font-size: 20px;
+                color: rgb(54, 56, 56);
+            }
+        }
+    }
+
+    .right{
+        flex: 0.5;
+        overflow: hidden;
+        .imageContainer{
+            width: 50vw;
+            height: 100vh;
+            background-color: rgb(12, 67, 88);
+            border-radius: 50%;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            img{
+                height: 90%;
+               
+            }
+        }
+    }
 }

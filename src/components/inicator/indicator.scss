@@ -1,0 +1,41 @@
+.indicator{
+    ul{
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        right: 20px;
+        list-style: none;
+        z-index: 10;
+        top: 30%;
+        li{
+            width: 10px;
+            height: 10px;
+            background: #ccc;
+            border-radius: 50%;
+            margin-top: 30px;
+            cursor: pointer;
+            transition: all 0.3s;
+           
+        }
+        li:hover, li.selected{
+            transform: scale(1.4);
+            background: rgb(118, 181, 206);
+        }
+        
+    }
+    &.open{
+        opacity: 0;
+    }
+}
+h3{
+    color: rgb(121, 153, 163);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 30px;
+    z-index: 10;
+    top: 20%;
+    font-size: 25px;
+
+
+}
