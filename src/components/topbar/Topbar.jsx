@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { PhoneInTalk,Email  } from '@material-ui/icons';
+import { PhoneInTalk,Email, ArrowBackIos, ArrowForwardIos } from '@material-ui/icons';
 
 const Topbar = ({menuOpen,setMenuOpen,activeIndex,setActiveIndex }) => {
     return ( 
@@ -7,7 +7,7 @@ const Topbar = ({menuOpen,setMenuOpen,activeIndex,setActiveIndex }) => {
             
         <div className="wrapper">
             <div className="left">
-                <a href="#aboutme" className="namelogo" onClick={()=>setActiveIndex(activeIndex=1)}> <i className='fas fa-angle-left'></i> Shachini Mekala / <i className='fas fa-angle-right'></i></a>
+                <a href="#aboutme" className="namelogo" onClick={()=>setActiveIndex(activeIndex=1)}> <ArrowBackIos/>Shachini Mekala /<ArrowForwardIos/></a>
                 <div className="itemContainer">
                 <PhoneInTalk/>
                 <a className="details" href="tel:+94712212515">(+94) 71-2212 515</a>
